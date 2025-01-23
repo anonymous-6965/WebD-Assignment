@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title> DropDown_Navbar</title>
+        <style>
+            .navbar{
+                background-color: rgb(32, 112, 233);
+                overflow:hidden;
+            }
+
+            .navbar a{
+                color:whitesmoke;
+                text-decoration: none;
+                padding: 12px 16px;
+                float: left;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .navbar a:hover{
+                background-color: rgb(26, 91, 190);
+            }
+
+            .dropdown:hover .dropbtn{
+                background-color: rgb(26, 91, 190);
+                cursor:cell;
+            }
+
+            .dropdown .dropbtn{
+                padding: 12px 16px;
+                color:whitesmoke;
+                background-color: inherit;
+                border:none;
+                font-size:20px;
+                font-family:inherit;
+                font-weight:bold;
+                margin: 0;
+            }
+
+            .items{
+                border:1px dotted black;
+                display: none;
+                position:absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+                z-index: 1;
+                cursor:cell;
+            }
+
+            .dropdown:hover .items{
+                display:block;
+            }
+
+            .items a:hover{
+                background-color: rgba(175, 175, 175, 0.814);
+                cursor:inherit;
+            }
+            .items a{
+                float:none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown{
+                float:left;
+                overflow:hidden;
+            }
+            .dropdown:hover .items{
+                display: block;
+                float:none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href=""> About </a>
+            <a href=""> Home </a>
+            <div class="dropdown">
+                <button class="dropbtn"> Names </button>
+                <div class="items">
+                    <a href=""> Anshdeep Singh </a>
+                    <a href=""> Aryan </a>
+                    <a href=""> Raj </a>
+                    <a href=""> Tomar </a>
+                    <a href=""> Udaynoor Singh</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
