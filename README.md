@@ -1,2 +1,2 @@
 # WebD-Assignment
-An ecommerce website as a WebD project at IIITA
+An anime website made by IIT2024011 and IIT2024012 for webD assignment
