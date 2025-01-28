@@ -128,9 +128,22 @@ h3 {
     text-decoration: none;
     font-size: 20px;
     height: 100%;
-    color: white
+    color: white;
 }
 
+.rem_nav button{
+    all: unset;
+    float:left;
+    padding: 15px 30px 10px ;
+    align-items: center;
+    background-color: #00000049;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100%;
+    color: white;
+    border: none;
+    
+}
 .navbar .rem_nav{
     max-height: 54px;
     align-items: center;
@@ -140,10 +153,38 @@ h3 {
     margin: 0%;
 }
 
+.wishlist{
+    all: unset;
+    float:left;
+    padding: 15px 30px 10px ;
+    align-items: center;
+    background-color: #00000049;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100%;
+    color: white;
+    border: none;
+}
+
+.wishlist button{
+    all:unset;
+}
+
+.wishlist button:hover{
+    background-color: transparent;
+}
+
+.rem_nav .wishlist:hover {
+    background-color: #0000008f;
+}
+
 .rem_nav a:hover{
     background-color: #0000008f;
 }
 
+.rem_nav button:hover{
+    background-color: #0000008f;
+}
 .break{
     background-color: #ce7624;
     height: 3px;
@@ -257,9 +298,9 @@ h3 {
     margin: 0px 30px;
 }
 
-.all{
+/* .all{
     height:100%;
-}
+} */
 
 .input {
     font-size: large;
@@ -293,3 +334,15 @@ h3 {
 @keyframes rotate{
     100%{transform: rotate(360deg);}
 }
+
+.wish_list{
+    display:none;
+    background-color: #111;
+    height:100%;
+    width:20%;
+}
+
+.wishlist:hover .wish_list{
+    display:block;
+}
+
